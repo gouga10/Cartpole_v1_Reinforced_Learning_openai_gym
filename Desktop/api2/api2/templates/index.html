@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Processing App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-md-8 offset-md-2">
+				<h1 class="text-center mb-4">Text Processing App</h1>
+				<form method="POST">
+					<div class="form-group">
+						<label for="text_input">Enter some text:</label>
+						<input type="text" class="form-control" id="text_input" name="text_input" placeholder="Enter text here">
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+				{% if text_input %}
+				<hr>
+				<p><strong>Input:</strong> {{ text_input }}</p>
+				{% endif %}
+				{% if processed_text %}
+				<p><strong>Output:</strong> {{ processed_text }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</body>
+</html>
