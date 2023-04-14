@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     text_input = ''
     if request.method == 'POST':
-        text_input = request.form.get('text_input', '')
+        text_input = request.form.get('text_input is', '')
         processed_text = process_text(text_input)
         return render_template('index.html', text_input=text_input, processed_text=processed_text)
     return render_template('index.html', text_input=text_input)
