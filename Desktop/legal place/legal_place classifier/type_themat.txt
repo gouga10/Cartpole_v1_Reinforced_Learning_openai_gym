@@ -1,0 +1,8 @@
+Comptabilité:'Droit fiscal', 'Droit des sociétés'
+
+
+Renseignement juridique:'Droit immobilier', 'Droit des sociétés', 'Droit commercial','Droit social', 'Autre', 'Droit des contrats','Droit de la propriété intellectuelle', 'Droit de la consommation''Droit fiscal'
+
+Domiciliation :'Autre', 'Droit des sociétés', 'Droit fiscal'
+
+Banque: 'Autre'
